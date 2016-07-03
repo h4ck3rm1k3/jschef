@@ -1,6 +1,6 @@
 ast
 chef
-chef
+chef-config
 compat_resource
 electron
 fuzzyurl.rb
@@ -14,3 +14,4 @@ ohai
 opal
 parser
 syslog_logger
+ffi

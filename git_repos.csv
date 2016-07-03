@@ -1,7 +1,7 @@
 name	source	modifications	branch
 ast	git@github.com:whitequark/ast.git
 chef	git@github.com:chef/chef.git
-compat_resource	git@github.com:chef-cookbooks/compat_resource.git
+compat_resource	git@github.com:chef-cookbooks/compat_resource.git git@github.com:h4ck3rm1k3/compat_resource.git opal
 electron	git@github.com:electron/electron.git
 fuzzyurl.rb	git@github.com:gamache/fuzzyurl.rb.git
 httpd	git@github.com:chef-cookbooks/httpd.git
@@ -14,3 +14,4 @@ ohai	git@github.com:chef/ohai.git
 opal	git@github.com:opal/opal.git git@github.com:h4ck3rm1k3/opal	source_lines
 parser	git@github.com:whitequark/parser.git
 syslog_logger	git@github.com:ngmoco/syslog_logger.git	git@github.com:h4ck3rm1k3/syslog_logger.git	opal
+ffi git@github.com:ffi/ffi.git git@github.com:h4ck3rm1k3/ffi.git	opal
