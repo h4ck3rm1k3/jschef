@@ -1,10 +1,4 @@
-t5:
-	bash test2.sh
-
-t4:
-	bash -x test.sh
-
-t3: testout2.js
+compile_and_run: testout2.js
 	nodejs testout2.js
 # 
 
