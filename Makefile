@@ -28,8 +28,8 @@ INC=	-I ../chef-provisioning/lib \
 
 testinc2:
 	#strace -f -s 999 -oopens.txt
-	ruby -I ../opal/lib/ ../opal/bin/opal $(INC) --compile testinc2.rb > testinc2.js
-	nodejs testinc2.js
+	ruby -I ../opal/lib/ ../opal/bin/opal $(INC) --compile tests/testinc2.rb > tmp/testinc2.js
+	nodejs tmp/testinc2.js
 testinc:
 	ruby -I ../opal/lib/ ../opal/bin/opal $(INC) testinc.rb
 

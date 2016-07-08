@@ -1,0 +1,16 @@
++ ruby -I ../opal/lib/ ../opal/bin/opal tests/regex.rb
+
+/tmp/opal-nodejs-runner-20160708-8803-1yd75h7:4679
+      throw exception;
+      ^
+pack: undefined method `pack' for [9]:Array
+    at Opal.defs.TMP_1 [as $new] (/tmp/opal-nodejs-runner-20160708-8803-1yd75h7:4894:15)
+    at Array.ːmethod_missing (/tmp/opal-nodejs-runner-20160708-8803-1yd75h7:3448:70)
+    at Array.method_missing_stub [as $pack] (/tmp/opal-nodejs-runner-20160708-8803-1yd75h7:1079:35)
+    at /tmp/opal-nodejs-runner-20160708-8803-1yd75h7:19805:57
+    at Opal.cdecl.$scope.get.$new.$a.$$p.TMP_1 (/tmp/opal-nodejs-runner-20160708-8803-1yd75h7:19805:247)
+    at Opal.yield1 (/tmp/opal-nodejs-runner-20160708-8803-1yd75h7:1271:14)
+    at Array.ːcollect (/tmp/opal-nodejs-runner-20160708-8803-1yd75h7:11003:26)
+    at /tmp/opal-nodejs-runner-20160708-8803-1yd75h7:19805:301
+    at Object.<anonymous> (/tmp/opal-nodejs-runner-20160708-8803-1yd75h7:19806:3)
+    at Module._compile (module.js:409:26)
