@@ -16,3 +16,4 @@ parser
 syslog_logger
 ffi
 ffi-yajl
+chef_zero

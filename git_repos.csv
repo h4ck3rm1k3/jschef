@@ -16,3 +16,8 @@ ohai,git@github.com:chef/ohai.git,,
 opal,git@github.com:opal/opal.git,git@github.com:h4ck3rm1k3/opal,source_lines
 parser,git@github.com:whitequark/parser.git
 syslog_logger,git@github.com:ngmoco/syslog_logger.git,git@github.com:h4ck3rm1k3/syslog_logger.git,opal
+chef_zero,git@github.com:chef/chef-zero.git,git@github.com:h4ck3rm1k3/chef-zero.git,opal
+cheffish,git@github.com:chef/cheffish.git,git@github.com:h4ck3rm1k3/cheffish.git,opal
+chef-provisioning,git@github.com:chef/chef-provisioning.git,git@github.com:h4ck3rm1k3/chef-provisioning.git,opal
+git@github.com:mizzy/serverspec.git
+
